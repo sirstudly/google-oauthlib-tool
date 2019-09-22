@@ -96,6 +96,7 @@ const CREDENTIALS = {
     type: "authorized_user"
 };
 
+/*
 const assistant = new GoogleAssistant(CREDENTIALS);
 const stdio = require('stdio');
 // Allow user to continually input questions and receive answers.
@@ -110,4 +111,5 @@ const promptUser = () => {
 };
 
 promptUser();
-module.exports = GoogleAssistant;
+*/
+module.exports = new GoogleAssistant(CREDENTIALS);
